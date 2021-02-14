@@ -1,0 +1,193 @@
+/* The Modal (background) */
+body {
+    height: 100%;
+    width:100%;
+}
+
+.First{
+    background-image: url("https://cdn.hipwallpaper.com/i/5/33/FXjrsi.jpg");
+    background-size:cover;
+    background-repeat:repeat-y;
+    width:100%;
+    height:750px;
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: rgb(0, 4, 37);
+    z-index: 100;
+  }
+  
+  /* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+.Homepage{
+    float:right;
+    width:50%;
+    height:500px;
+    position:inherit;
+    z-index:-99;
+  }
+  
+  .Side{
+    position:relative;
+    height:100%;
+  }
+  
+  .Left,.Right{
+  position:absolute;
+  }
+
+  .Left{
+    height:100%;
+    width:100%;
+    margin-top: 5%;
+    left:0;
+  }
+  
+  .Right{
+    
+    margin-left: 30%;
+    margin-top: 30%;
+    padding: 5%;
+  
+  }
+  
+/*Places: */
+
+  .Second{
+    font-size:27px;
+    margin: 0;
+    width:100%;
+    height:900px;
+    font-size: 20px;
+    z-index: 0;
+  }
+
+  .Place{
+    float:right;
+    width:50%;
+    height:auto;
+    margin-bottom:5%; 
+    padding: 2%;
+    position:inherit;
+    z-index:-99;
+  }
+  
+  .Part{
+    position:relative;
+    height:100%;
+  }
+  
+  .Image,.Matter{
+  position:absolute;
+  }
+
+  .Image{
+      left:0;
+      top:10%;
+  }
+
+  .Matter{
+      text-align: left;
+      padding:10px;
+      margin-bottom: 10%;
+      margin-right: 0;
+      margin-left:0;
+  }
+
+  #respond {
+    margin: 40px;
+
+  }
+  
+  #respond input[type='text'],
+  #respond input[type='email'],
+  #respond textarea {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+  
+    line-height: 1.4em;
+  }
+
+  #respond label{
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+  }
+
+  #posts-list.has-comments li.no-comments {
+    display: none;
+  }
+
+
+
+.footer {
+  /* Change the background-color to #2f5167 */
+  background-color: #040024;
+  
+  /* Change the color to #fff */
+  color:#fff;
+  
+  /* Change the height to 120px */
+  height: 90px;
+  /* Change the padding for all sides to 40px */
+  padding: 10px 10px 10px 10px;  
+  bottom: 0;
+  position: sticky;
+  overflow: hidden;
+  
+}
+
+/* Change footer-logo's font-size and float property */
+.footer-logo{
+  font-size:32px;
+  float:left;
+  
+}
+
+/* Change footer-list's float property */
+.footer-list{
+  float:right;
+}
+
+/* Add CSS for <li> tags within footer-list */
+.footer-list li{
+  padding-bottom:5px;
+
+}
